@@ -1,0 +1,88 @@
+
+.ourmession {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width:350px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.ourVission {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width:350px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+@media only screen and (max-width:700px) {
+    /* For mobile phones: */
+    .smart, .mession, .vission, .main,.intro {
+        width: 100%;
+        position: relative;
+
+    }
+    .ourmession,.ourVission{
+        font-size: 15px;
+        width: 50%;
+        height: auto;
+    }
+    #img1, #img2{
+        height: 300px;
+        width: 100%;
+    }
+    #main{
+        height: 300px;
+    }
+}
+.main{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 70px -8px 100px;
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.smart{
+    position: relative;
+    margin: auto; width: 300px; text-align: center; font-family: 'Times New Roman'; font-size: 20px; margin-bottom: 50px;
+}
+#hr2{
+    border-top: 5px solid #06508d;
+    border-radius: 5px;
+    background-color: #06508d;
+}
+.intro{
+    background-color:rgba(0,136,169,1); height: 70px; text-align: center;padding-top: 15px; width: 100%; font-family: 'Times New Roman';
+}
+
+.mession {
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+.vission {
+    position: relative;
+    text-align: center;
+    align-content:center;
+}
+
+#hr{
+    border-top: 2px solid white;
+}

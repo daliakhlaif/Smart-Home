@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.product-feature-box{
+    width: 250px;
+    height: 270px;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.05);
+    border-color: lavenderblush;
+    border-style: solid;
+
+}
+.product-feature-box:hover {
+    box-shadow: 10px 10px 54px rgba(115, 67, 204, 0.2);
+    transform: translateY(-5px);
+}
+h6{
+    color:black;
+    font-weight: normal;
+    font-max-size: 5px;
+    font-family: "Times New Roman";
+    width: 200px;
+    margin-top:  10px;
+    margin-left: 20px;
+}
+
+.bottom{position: absolute; z-index: 1; }
+.top{position: absolute; z-index: 2;}
+
+.circle {
+    height:35px;
+    width: 35px;
+    background-color: white;
+    border-color: white;
+    border-radius: 70%;
+    margin-left: 50px;
+    padding-left: -70px;
+}
+
+*{
+    font-family: "Times New Roman";
+
+}
+
+.cart{
+    width:  500px;
+    height:450px;
+}
+.marginleft{
+    margin:0px;
+}
+.box{
+    margin: 10px; height: 500px; width: 250px;
+}
